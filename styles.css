@@ -48,31 +48,64 @@ nav ul li a{
 
 .row{
     display: flex;
+    margin: 20px;
 }
 
-.col1, .col2{
+.row h1{
+    margin-bottom: 10px;
+}
+
+#about-me-col1, #about-me-col2{
     width: 50%;
 }
 
-.col1 h1{
+#about-me-col1 h1{
     font-size: 50px;
 }
 
-.col1 h1 span{
+#about-me-col1 h1 span{
     background:
     linear-gradient(to right, #2b6f9f, #55a8cc, #7fd1f9, #a9fbff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.col2{
+#about-me-col2{
     margin-left: 20px;
 }
 
-.col2 p{
+#about-me-col2 p{
     margin-top: 10px;
 }
 
+#education-col1, #education-col2, #education-col3{
+    width: 33%;
+    margin: 20px;
+}
+
+#experience-col1, #experience-col2{
+    width: 50%;
+    margin: 20px;
+}
+
+#projects nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#projects h1
+{
+    text-align: center;
+}
+
+
+
+#socials {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
